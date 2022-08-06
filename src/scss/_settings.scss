@@ -79,13 +79,15 @@ a {
 }
 
 .container {
+  border: 1px solid tomato;
   margin: 0 auto;
   padding: 0 var(--container-offset);
   max-width: var(--container-width);
 }
 
 .container-fluid{
-  margin:0auto;
+  border: 1px solid green;
+  margin:0 auto;
   padding: 0 var(--container-offset);
   max-width:var(-- container-fluid-width);
 }
