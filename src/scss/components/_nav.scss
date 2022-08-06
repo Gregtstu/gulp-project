@@ -1,0 +1,16 @@
+.nav{
+  &__list{
+    @include flex-v-center;
+    gap: 40px;
+  }
+
+  &__link{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--light-color);
+  }
+}
