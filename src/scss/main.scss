@@ -6,11 +6,14 @@
 
 
 // подключения компонентов страницы
+@import "./components/btn";
+@import "./components/tooltip";
 @import "./components/header";
 @import "./components/hero";
 @import "./components/nav";
 @import "./components/phone";
-@import "./components/btn";
+@import "./components/about";
+@import "./components/advantage";
 
 // тестовые стили, удалите их
 
