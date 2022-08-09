@@ -4,9 +4,11 @@
   background-color: var(--accent-color);
 
   .container-wrapper{
+    padding: 0 10px;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
+    flex-wrap: wrap;
   }
 
   &__text{

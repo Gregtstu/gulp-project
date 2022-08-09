@@ -1,0 +1,42 @@
+.burger{
+  display: none;
+  position: relative;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.08);
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  border-radius: 10px;
+
+  @include big-tablet{
+    display: block;
+  }
+
+  &__line{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 26px;
+    height: 2px;
+    background-color: var(--light-color);
+    text-align: center;
+    // transform: translateX(-50%), translateY(-10%);
+    margin-bottom: 7px;
+
+    &:nth-child(3){
+      margin-top: 10px;
+    }
+
+    &:nth-child(1){
+      margin-top: 20px;
+    }
+  }
+
+}
+
+.none{
+  display: none;
+  @include big-tablet{
+    display: block;
+  }
+}

@@ -13,4 +13,19 @@
     text-align: center;
     color: var(--light-color);
   }
+
+  &{
+    @include big-tablet{
+      display: none;
+    }
+  }
 }
+
+.phone{
+  @include big-tablet{
+    display: none;
+  }
+
+}
+
+

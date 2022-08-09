@@ -22,6 +22,7 @@
     margin: 0;
     padding: 0;
     @include flex-all-sb;
+    flex-wrap: wrap;
   }
 
   &__description-item {
