@@ -1,0 +1,31 @@
+.footer{
+  background-color: var(--dark-color);
+  padding: 40px 0;
+
+  .conyainer-wrap{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo-main{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 160%;
+    color: var(--light-color);
+  }
+
+  &__logo-submain{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  &__logo-telefone{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+    text-align: right;
+    color: var(--light-color);
+  }
+}
