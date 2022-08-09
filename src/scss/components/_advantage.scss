@@ -1,12 +1,12 @@
+.section-title{
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 160%;
+  color: var(--dark-color);
+}
 .advantage {
   padding: 100px 0;
 
-  &__title{
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 160%;
-    color: var(--dark-color);
-  }
   &__list {
     padding: 0;
     @include flex-all-sb;
